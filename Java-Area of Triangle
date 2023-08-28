@@ -1,0 +1,27 @@
+package basic;
+
+import java.util.Scanner;
+
+public class Area_Of_Triangle {
+
+	public static void main(String[] args) {
+		 
+		Scanner s = new Scanner(System.in);
+		
+		System.out.print("Enter Base of a Triangle: ");
+		double Base = s.nextDouble();
+		
+		System.out.print("Enter Height of a Triangle: ");
+		double Height = s.nextDouble();
+		
+		double Area = (Base*Height)*0.5;
+		
+		System.out.println("The Area of a Triangle: "+Area);
+
+	}
+
+}
+
+
+		
+
