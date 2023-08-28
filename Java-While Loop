@@ -1,0 +1,25 @@
+package basic;
+
+import java.util.Scanner;
+
+public class whileLoop {
+
+	public static void main(String[] args) {
+		
+		 Scanner s = new Scanner(System.in);
+		 
+		 System.out.print("Enter a Number below 10: ");
+		 int a = s.nextInt();
+		 int sum = 0;
+		 
+		 while(a<10) {
+			 sum+=a;
+			 a++;
+		 }
+
+		 System.out.format("Sum of Numbers from While Loop is: %d",sum);
+
+		}
+  
+}
+
