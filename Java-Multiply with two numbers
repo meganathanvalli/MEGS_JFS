@@ -1,0 +1,21 @@
+package basic;
+
+import java.util.Scanner;
+
+public class Multiplication {
+
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.print("Enter value of a: ");
+		int a = scan.nextInt();
+		
+		System.out.print("Enter value of b: ");
+		int b = scan.nextInt();
+		
+		System.out.println("The Multiplication of "+a+" and "+b+" = "+(a*b));
+			
+	}
+
+}
