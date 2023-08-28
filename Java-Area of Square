@@ -1,0 +1,24 @@
+package basic;
+
+import java.util.Scanner;
+
+public class Area_Of_Square {
+
+	public static void main(String[] args) {
+		 
+		Scanner s = new Scanner(System.in);
+		
+		System.out.print("Enter Side of a Square: ");
+		double Side = s.nextDouble();
+		
+		double Area = Side*Side;
+		
+		System.out.println("The Area of a Square: "+Area);
+
+	}
+
+}
+
+
+		
+
