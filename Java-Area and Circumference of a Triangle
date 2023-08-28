@@ -1,0 +1,28 @@
+package basic;
+
+import java.util.Scanner;
+
+public class Area_Circumference_of_circle {
+
+	public static void main(String[] args) {
+		 
+		Scanner s = new Scanner(System.in);
+		
+		System.out.print("Enter a Radius of a Circle: ");
+		double Radius = s.nextDouble();
+		
+		double Area = 3.14*Radius*Radius;
+		
+		System.out.println("The Area of a Circle is: "+Area);
+		
+		double Circumference = 2*3.14*Radius;
+		
+		System.out.println("The Circumference of a Circle is: "+Circumference);
+	
+  }
+
+}
+
+
+		
+
